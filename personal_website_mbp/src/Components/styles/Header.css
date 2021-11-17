@@ -1,0 +1,23 @@
+.section1{
+    display:flex;
+    justify-content: right;
+    padding-right:25%;
+}
+.body{
+    padding-top: .5%;
+
+}
+
+.name{
+    position: absolute;
+    padding-top:10%;
+    padding-left: 24%;
+    right: 0%;
+    left: 5%;
+    border: 2px solid white;
+    background-color: white;
+    /* margin: 1%; */
+    width:150px;
+    height: 90px;
+
+}
