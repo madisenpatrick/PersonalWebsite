@@ -1,0 +1,94 @@
+.myMusic h1{
+    text-align: center;
+}
+.all-music{
+    display: flex;
+    justify-content: center;
+}
+
+.fav-artist{
+    border: 3px solid #e99f4c;
+    padding-left: 1%;
+    width:35%;
+    border-radius: 40px;
+}
+
+.lemonade{
+    display:flex;
+}
+.lemonade p {
+    margin-left: 10%;
+}
+
+#lemonade{
+    width:150px;
+}
+
+.instruments{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    margin-left:10%;
+    width:35%;
+    background-color: #e99f4c;
+    border-radius: 40px;
+}
+.guitar-box{
+    display:flex;
+    align-items: center;
+}
+
+.guitar-box p{
+    margin-left: 20%;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding-top:5%;
+    padding-left:3%;
+    padding-bottom: 5%;
+    padding-right: 1%;
+}
+
+
+#guitarpng{
+    height:150px;
+    transform: rotate(90deg);
+    margin-left:10%;
+}
+
+.trumpet-box{
+    display:flex;
+    align-items: center;
+
+}
+
+.trumpet-box p{
+    margin-left: 11%;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding-top:5%;
+    padding-left:5%;
+    padding-bottom: 5%;
+    padding-right: 11%;
+}
+#trumpetpng{
+    width:150px;
+}
+
+.piano-box{
+    display:flex;
+    align-items: center;
+}
+
+.piano-box p{
+    margin-left: 8%;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding-top:5%;
+    padding-left:10%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+}
+
+#pianopng{
+    width:150px
+}

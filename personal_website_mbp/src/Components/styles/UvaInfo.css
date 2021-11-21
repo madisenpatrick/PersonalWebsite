@@ -1,0 +1,141 @@
+.uvaback2{
+    
+    
+    
+}
+
+.rotun{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+/* .rotun:hover{
+    width:600px;
+    height: 600px;
+} */
+#uvaro {
+    position: fixed;
+    padding-top: 1%;
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    transition: all 2s;
+    
+    
+  }
+
+.flip-box-inner:hover .lax{
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+
+}
+  
+.lax{
+  display:flex;
+  justify-content: flex-end;
+  
+}
+
+
+  #laxpic{
+    position:fixed;
+    width:400px;
+    border-radius: 50%;
+  }
+
+.lax-text{
+  /* border: 2px solid;
+  border-color: tomato; */
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 78%;
+  margin-top: 3%;
+  position: fixed;
+  padding-top:4%;
+  padding:3%;
+  /* padding-bottom:4%;
+  padding-right: 3%;
+  padding-left: 3%; */
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.lax-text:hover{
+  opacity: 100%;
+}
+
+
+.flip-class:hover .classpic{
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+
+}
+
+.classpic{
+  display: flex;
+  
+}
+
+#classpic{
+  position: fixed;
+  height:350px;
+  width:350px;
+  border-radius: 50%;
+  margin-top: 25%;
+
+}
+
+.classpic-text{
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  position: fixed;
+  margin-top:28%;
+  margin-left:2%;
+  opacity: 0;
+}
+.classpic-text:hover{
+  opacity: 100%;
+}
+
+
+  .uvaMajor{
+      display: flex;
+      flex-direction: column;
+      align-items:flex;
+      border: 3px solid black;
+      border-radius: 40px;
+      margin-top: 4%;
+      margin-right: 65%;
+      margin-left:10%;
+      padding-left:1%;
+      line-height: 0.8;
+      white-space: nowrap;
+  }
+
+  .gradyear{
+    display: flex;
+    flex-direction: column;
+    align-items:flex;
+    border: 3px solid black;
+    border-radius: 40px;
+    margin-top: 20%;
+    margin-right: 15%;
+    margin-left:66%;
+    padding-left:2%;
+    line-height: 0.2;
+    white-space: nowrap;
+    padding-top:1%;
+    
+    
+  }
+
+  .year{
+    
+    font-size: 40px;
+    text-align: right;
+    margin-right:2%;
+  }
