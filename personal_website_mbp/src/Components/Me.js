@@ -36,7 +36,7 @@ function Me() {
                 </div>
             </div>
             <div className="meTopInfo">
-                <h1>I AM MADISEN</h1>
+                <h1>MADISEN PATRICK</h1>
                 <p> I am from Virginia Beach, Virginia. </p>
             </div>
 

@@ -27,6 +27,13 @@ function UvaInfo() {
                 </div>
             </div>
 
+            
+
+            <div className="uvaMajor">
+                <h2>Major: Computer Engineering</h2>
+                <h3>Minor: Business</h3>
+            </div>
+
             <div className="flip-class">
                 <div className="classpic">
                     <img id="classpic" src={classpic} alt="classpic"/>
@@ -41,11 +48,6 @@ function UvaInfo() {
 
             </div>
 
-            <div className="uvaMajor">
-                <h2>Major: Computer Engineering</h2>
-                <h3>Minor: Business</h3>
-            </div>
-
             <div className="gradyear">
                 <h3>Graduation Year:</h3>
                 <div className="year">
@@ -53,6 +55,8 @@ function UvaInfo() {
                 </div>
                 
             </div>
+
+            
             
         </div>
     );

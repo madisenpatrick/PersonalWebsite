@@ -4,6 +4,8 @@ import guitarpng from './styles/photos/guitarpng.png'
 import trumpetpng from './styles/photos/trumpetpng.png'
 import pianopng from './styles/photos/pianopng.png'
 import lemonade from './styles/photos/lemonade.png'
+import laurynhill from './styles/photos/laurynhill.jpg'
+import her from './styles/photos/HER.jpg'
 import {AiFillCustomerService} from "react-icons/ai"
 
 
@@ -18,6 +20,14 @@ const MyMusic = () => {
                         <div className="lemonade">
                             <div><img id="lemonade" src={lemonade}/></div>
                             <p>BEYONCE!</p>
+                        </div>
+                        <div className="lauryn">
+                            <div><img id="lauryn" src={laurynhill}/></div>
+                            <p>Lauryn Hill</p>
+                        </div>
+                        <div className="her">
+                            <div><img id="her" src={her}/></div>
+                            <p>H.E.R.</p>
                         </div>
 
                    </div>

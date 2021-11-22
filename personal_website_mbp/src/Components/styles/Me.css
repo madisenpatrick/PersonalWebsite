@@ -1,11 +1,11 @@
 .allMe{
-    background-color: white ;
+    background-color: #dcc7aa ;
 }
 
 .meTopInfo{
-    border: 2px solid #e99f4c;
+    /* border: 2px solid #e99f4c; */
     text-align: center;
-    background-color: #e99f4c;
+    background-color: #687a8f;
     color: white;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,6 @@
     justify-content: center;
     align-items: center;
     margin: 0;
-    background: #e99f4c;
     padding:5%;
     color: white;
   }

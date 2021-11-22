@@ -7,7 +7,9 @@
 }
 
 .fav-artist{
-    border: 3px solid #e99f4c;
+    /* border: 3px solid #f7c331; */
+    background-color: white;
+    margin-bottom: 10%;
     padding-left: 1%;
     width:35%;
     border-radius: 40px;
@@ -21,17 +23,45 @@
 }
 
 #lemonade{
-    width:150px;
+    width:120px;
+}
+
+.lauryn{
+    display: flex;
+    padding-top:2%;
+}
+
+.lauryn p{
+    margin-left:10%;
+}
+
+#lauryn{
+    width:120px;
+}
+
+.her{
+    display: flex;
+    padding-top: 2%;
+}
+
+.her p{
+    margin-left:10%;
+}
+
+#her{
+    width:120px;
 }
 
 .instruments{
     display: flex;
     flex-direction: column;
     padding-left: 1%;
+    margin-bottom: 10%;
     margin-left:10%;
     width:35%;
-    background-color: #e99f4c;
+    background-color: #f7c331;
     border-radius: 40px;
+    color: white;
 }
 .guitar-box{
     display:flex;
@@ -40,7 +70,7 @@
 
 .guitar-box p{
     margin-left: 20%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 40px;
     padding-top:5%;
     padding-left:3%;
@@ -63,7 +93,7 @@
 
 .trumpet-box p{
     margin-left: 11%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 40px;
     padding-top:5%;
     padding-left:5%;
@@ -81,7 +111,7 @@
 
 .piano-box p{
     margin-left: 8%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 40px;
     padding-top:5%;
     padding-left:10%;

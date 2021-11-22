@@ -2,7 +2,7 @@
     display:flex;
     justify-content: center;
     /* padding-right:25%; */
-    background-color:  #eddcd9;
+    background-color: #6b7a8f ;
 }
 .body{
     padding-top: .5%;
@@ -11,13 +11,10 @@
 
 .name{
     position: absolute;
-    /* padding-top:10%; */
-    /* padding-left: 30%;
-    right: 0%; */
-    /* left: 5%; */
+    
     border: 2px solid white;
     background-color: white;
-    /* margin: 10%; */
+   
     padding-left: 1%;
     margin-right: 36%;
     margin-top: 10%;
@@ -27,25 +24,22 @@
 
 }
 
-.section1{
-    
-    background-color:#eddcd9 ;
-}
+
 .button{
-    /* padding-top:9%; */
-    display: flex;
     
+    display: flex;
     justify-content: center;
-    background-color:#eddcd9 ;
-    padding-bottom: 10%;
+    background-color:#6b7a8f ;
+    padding-bottom: 7%;
 
 }
 
 .learnMore{
     display: flex;
     justify-content: center;
-    background-color: #eddcd9;
-    /* padding-top: 9%; */
+    background-color: #6b7a8f;
+    color: white;
+    
 }
 
 

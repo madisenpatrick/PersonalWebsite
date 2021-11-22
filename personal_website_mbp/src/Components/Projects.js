@@ -1,14 +1,24 @@
 import React from 'react';
+ import Collapsible from './Collapsible.js'
+ import './styles/Projects.css'
+ import codeBack from './styles/photos/codeback.jpeg'
 
 const Talent = () => {
     return (
-        <div>
-            <h2>
-                Prjects I have worked on:
-            </h2>
-            <h2>Coding Languages:</h2>
-            <h2> Experiences:</h2>
-            <h2>Resume?</h2>
+        <div className="allProject">
+            <div className="c1" style={{backgroundImage: `url(${codeBack})`}}>
+                <Collapsible label="Coding Languages:">
+                    <h2>Coding Languages go here</h2>
+                    <p>Java, C++, python, and ReactJS, JavaScript, CSS, HTML</p>
+                </Collapsible>
+            </div>
+            
+            <Collapsible label="Projects I have worked on:">
+                <h2> Asurion </h2>
+            </Collapsible>
+            <Collapsible label="Experiences:">
+                <h2>Asurion Soluto Team</h2>
+            </Collapsible>
         </div>
     )
 }
