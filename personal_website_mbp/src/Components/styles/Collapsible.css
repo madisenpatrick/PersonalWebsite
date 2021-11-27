@@ -1,21 +1,50 @@
 .collapsible .toggle{
-    background: white;
+    background: #dcc7aa;
     border: unset;
     cursor: pointer;
     font: unset;
     padding: 0.3rem;
     margin-bottom: 0.5rem;
+    font-size: xx-large;
+    
 }
 
 .collapsible .content{
     /* border: 1px solid black; */
-    background: white;
+    background: #dcc7aa;
     
 }
 .collapsible .content-parent{
     height: 0px;
     overflow: hidden;
     transition: height ease 0.5s;
+}
+
+.collapsible button {
+    color: black;
+}
+
+.collapsible img {
+    width: 20%;
+    /* padding: 1%;  */
+}
+
+#C1{
+    padding-top:5%;
+}
+
+#python{
+    width: 25%;
+    padding-top: 10%;
+}
+
+#matlab{
+    padding-top:10%;
+}
+
+#reactLogo{
+    width: 20%;
+    padding-top: 5%;
 }
 
 

@@ -45,7 +45,7 @@ const MyMusic = () => {
                         </div>
                         <div className="piano-box">
                             <img id="pianopng" src={pianopng}/>
-                            <p></p>
+                            <p>Song of Kilimanjaro</p>
                         </div>
                         
                    </div>
